@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0-rc.2.21480.5"/>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0"/>
+    <PackageReference Include="OfficeOpenXml.Extends" Version="1.0.6"/>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0-rc.2.21480.5"/>
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1003"/>
+    <PackageReference Include="Microsoft.AspNetCore.Antiforgery" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="6.0.0-rc.2.21480.5"/>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0-rc.2.21480.5"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0-rc.2.21480.5"/>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.Extensions.Logging.EventLog" Version="6.0.0-rc.2.21480.5"/>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.13.1"/>
+    <PackageReference Include="System.Security.Cryptography.X509Certificates" Version="4.3.2"/>
+    <PackageReference Include="System.Security.Cryptography.Cng" Version="5.0.0"/>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="6.0.0"/>
+    <PackageReference Include="System.Security.Cryptography.Primitives" Version="4.3.0"/>
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1"/>
+    <PackageReference Include="System.Security.Cryptography.Csp" Version="4.3.0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utn.FirmaDigital.Backend.Common\Utn.FirmaDigital.Backend.Common.csproj"/>
+    <ProjectReference Include="..\Utn.FirmaDigital.Backend.DataAccess\Utn.FirmaDigital.Backend.DataAccess.csproj"/>
+    <ProjectReference Include="..\Utn.FirmaDigital.Backend.Utilities\Utn.FirmaDigital.Backend.Utilities.csproj"/>
+  </ItemGroup>
+</Project>
